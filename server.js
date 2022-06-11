@@ -42,7 +42,7 @@ connection.connect(function(err) {
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.listen(port, () => console.log(`Listening on prt ${port}`));
+//app.listen(port, () => console.log(`Listening on prt ${port}`));
 
 require('./routes/auth.routes')(app);
 require('./routes/user.routes')(app);
