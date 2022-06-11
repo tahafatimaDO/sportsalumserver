@@ -37,7 +37,7 @@ connection.connect(function(err) {
   }
 });
 
-console.log("connection: ", connection);
+//console.log("connection: ", connection);
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
